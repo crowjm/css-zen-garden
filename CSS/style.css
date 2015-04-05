@@ -188,9 +188,9 @@ h1 {
   text-align: center;
   text-shadow: 2px -2px 0px #d3b205, 4px -4px 0px #38a4d8, 6px -6px 0px #b10118, 8px -8px 0px #009b4a;
   letter-spacing: 6px;
-  padding-left: 0.5rem;
+  padding-left: 1rem;
   padding-top: 0.5rem;
-  padding-right: 0.5rem;
+  padding-right: 1rem;
   padding-bottom: 0.5rem; }
 
 h2 {
@@ -223,8 +223,7 @@ h2 {
   .preamble h3 {
     margin-bottom: 1rem;
     margin-right: 0.5rem;
-    clear: both;
-    text-align: right; }
+    clear: both; }
   .preamble p {
     margin-bottom: 0.5rem; }
 
@@ -238,8 +237,7 @@ h2 {
   .participation h3 {
     margin-bottom: 1rem;
     margin-right: 0.5rem;
-    clear: both;
-    text-align: right; }
+    clear: both; }
   .participation p {
     margin-bottom: 0.5rem; }
 
@@ -253,8 +251,7 @@ h2 {
   .requirements h3 {
     margin-bottom: 1rem;
     margin-right: 0.5rem;
-    clear: both;
-    text-align: right; }
+    clear: both; }
   .requirements p {
     margin-bottom: 0.5rem; }
 
