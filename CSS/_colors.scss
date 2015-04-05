@@ -1,22 +1,19 @@
 $black: rgb(0,0,0);
 $green: rgb(0,155,74);
 $blue: rgb(56,164,216);
-$yellow: rgb(240,213,72);
-$red: rgb(241,3,35);
+$yellow: rgb(211,178,5);
+$red: rgb(177,1,24);
 $black-super-transparent: rgba(0,0,0,0.2);
 $green-super-transparent: rgba(0,155,74,0.2);
 $blue-super-transparent: rgba(56,164,216,0.2);
-$yellow-super-transparent: rgba(240,213,72,0.2);
-$red-super-transparent: rgba(241,3,35,0.2);
+$yellow-super-transparent: rgba(211,178,5,0.2);
+$red-super-transparent: rgba(177,1,24,0.2);
 
 
 /***general***/
-a {
-	color: $blue;
-}
-
-a:hover {
-	color: darken($blue, 20%);
+a, a:hover {
+	color: white;
+	border-bottom: 1px solid white;
 }
 
 
@@ -25,114 +22,129 @@ a:hover {
 	p {
 		color: #333;
 	}
+	a, a:hover {
+		color: black;
+		border-bottom: 1px solid black;
+	}
 }
 
 .preamble::before {
-	border: 5px solid $blue;
+	border: 5px solid lighten($blue, 25%);
 }
 
 .preamble {
-	background-color: $blue-super-transparent;
+	background-color: $blue;
 	h3 {
-		color: $blue;
+		color: white;
 	}
 	p {
-		color: #333;
+		color: white;
 	}
 }
 
 .explanation::before {
-	border: 5px solid $black;
+	border: 5px solid lighten($black, 25%);
 }
 
 .explanation {
-	background-color: $black-super-transparent;
+	background-color: $black;
+	h3 {
+		color: white;
+	}
 	p {
-		color: #333;
+		color: white;
 	}
 }
 
 .participation::before {
-	border: 5px solid $red;
+	border: 5px solid lighten($red, 25%);
 }
 
 .participation {
-	background-color: $red-super-transparent;
+	background-color: $red;
 	h3 {
-		color: $red;
+		color: white;
 	}
 	p {
-		color: #333;
+		color: white;
 	}
 }
 
 .benefits::before {
-	border: 5px solid darken($yellow, 10%);
+	border: 5px solid lighten($yellow, 25%);
 }
 
 .benefits {
-	background-color: darken($yellow-super-transparent, 10%);
+	background-color: $yellow;
 	h3 {
-		color: darken($yellow, 10%);
+		color: white;
 	}
 	p {
-		color: #333;
+		color: white;
 	}
 }
 
 .requirements::before {
-	border: 5px solid $green;
+	border: 5px solid lighten($green, 25%);
 }
 
 .requirements {
-	background-color: $green-super-transparent;
+	background-color: $green;
 	h3 {
-		color: $green;
+		color: white;
 	}
 	p {
-		color: #333;
+		color: white;
 	}
 }
 
 /***sidebar***/
 .design-selection::before {
-	border: 5px solid $red;
+	border: 5px solid lighten($red, 25%);
 }
 
 .design-selection {
-	background-color: $red-super-transparent;
+	background-color: $red;
 	h3 {
-		color: $red;
+		color: white;
 	}
 	p {
-		color: #333;
+		color: white;
+	}
+	nav {
+		ul {
+			li {
+				color: white;
+			}
+		}
 	}
 }
 
 .design-archives::before {
-	border: 5px solid darken($yellow, 10%);
+	border: 5px solid lighten($yellow, 25%);
 }
 
 .design-archives {
-	background-color: darken($yellow-super-transparent, 10%);
+	background-color: $yellow;
+	color: white;
 	h3 {
-		color: darken($yellow, 10%);
+		color: white;
 	}
 	p {
-		color: #333;
+		color: white;
 	}
 }
 
 .zen-resources::before {
-	border: 5px solid $green;
+	border: 5px solid lighten($green,25%);
 }
 
 .zen-resources {
-	background-color: $green-super-transparent;
+	background-color: $green;
 	h3 {
-		color: $green;
+		color: white;
 	}
 	p {
-		color: #333;
+		color: white;
 	}
 }

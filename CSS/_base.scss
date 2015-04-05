@@ -3,15 +3,13 @@
 /***universal***/
 .page-wrapper, {
 	width: 100%;
-	// margin-right: auto;
-	// margin-left: auto;
-	// max-width: 750px;
 }
 
 
 
 /***header***/
 h1 {
+	font-size: 4rem;
 	margin-bottom: 1.5rem;
 	margin-top: 1rem;
 	text-align: center;
@@ -50,6 +48,7 @@ h2 {
 
 .preamble {
 	box-sizing: border-box;
+	-moz-box-sizing: border-box;
 	padding-left: 2.5rem;
 	padding-top: 2rem;
 	padding-right: 2.5rem;
@@ -57,17 +56,18 @@ h2 {
 	h3 {
 		margin-bottom: 1rem;
 		margin-right: 0.5rem;
-		float: left;
-		width: 67%;
+		clear: both;
+		text-align: right;
 	}
 	p {
-		clear: both;
+		// clear: both;
 		margin-bottom: 0.5rem;
 	}
 }
 
 .participation {
 	box-sizing: border-box;
+	-moz-box-sizing: border-box;
 	padding-left: 2.5rem;
 	padding-top: 2rem;
 	padding-right: 2.5rem;
@@ -75,17 +75,18 @@ h2 {
 	h3 {
 		margin-bottom: 1rem;
 		margin-right: 0.5rem;
-		float: left;
-		width: 67%;
+		clear: both;
+		text-align: right;
 	}
 	p {
-		clear: both;
+		// clear: both;
 		margin-bottom: 0.5rem;
 	}
 }
 
 .requirements {
 	box-sizing: border-box;
+	-moz-box-sizing: border-box;
 	padding-left: 2.5rem;
 	padding-top: 2rem;
 	padding-right: 2.5rem;
@@ -93,11 +94,11 @@ h2 {
 	h3 {
 		margin-bottom: 1rem;
 		margin-right: 0.5rem;
-		float: left;
-		width: 67%;
+		clear: both;
+		text-align: right;
 	}
 	p {
-		clear: both;
+		// clear: both;
 		margin-bottom: 0.5rem;
 	}
 }
@@ -114,6 +115,7 @@ h2 {
 
 .explanation {
 	box-sizing: border-box;
+	-moz-box-sizing: border-box;
 	padding-left: 2.5rem;
 	padding-top: 2rem;
 	padding-right: 2.5rem;
@@ -121,17 +123,17 @@ h2 {
 	h3 {
 		margin-bottom: 1rem;
 		margin-left: 0.5rem;
-		float: right;
-		width: 67%;
+		clear: both;
 	}
 	p {
 		margin-bottom: 0.5rem;
-		clear: both;
+		// clear: both;
 	}
 }
 
 .benefits {
 	box-sizing: border-box;
+	-moz-box-sizing: border-box;
 	padding-left: 2.5rem;
 	padding-top: 2rem;
 	padding-right: 2.5rem;
@@ -139,12 +141,11 @@ h2 {
 	h3 {
 		margin-bottom: 1rem;
 		margin-left: 0.5rem;
-		float: right;
-		width: 67%;
+		clear: both;
 	}
 	p {
 		margin-bottom: 0.5rem;
-		clear: both;
+		// clear: both;
 	}
 }
 
@@ -156,10 +157,9 @@ footer {
 	padding-right: 1rem;
 	padding-top: 3rem;
 	padding-bottom: 3rem;
-	margin-right: auto;
-	margin-left: auto;
-	width: 85%;
-	text-align: center;
+	a, a:hover {
+		color: black;
+	}
 }
 
 .zen-validate-html, .zen-validate-css, .zen-license, .zen-accessibility, .zen-github {
@@ -167,12 +167,10 @@ footer {
   padding-bottom: 2rem;
   padding-right: 2rem;
   padding-left: 2rem;
-  color: white;
   text-align: center;
-}
-
-.zen-validate-html:hover, .zen-validate-css:hover, .zen-license:hover, .zen-accessibility:hover, .zen-github:hover {
-	color: white;
+  display: block;
+  width: 50%;
+  margin-bottom: 0.5rem;
 }
 
 .zen-validate-html {
@@ -220,15 +218,15 @@ footer {
 
 .design-selection, .zen-resources {
 	box-sizing: border-box;
+	-moz-box-sizing: border-box;
 	padding-left: 2.5rem;
 	padding-top: 2rem;
 	padding-right: 2.5rem;
 	padding-bottom: 2rem;
 	h3 {
 		margin-bottom: 1rem;
-		float: left;
-		width: 67%;
-		margin-right: 0.5rem;
+		clear: both;
+		text-align: right;
 	}
 	nav, ul {
 		clear: both;
@@ -249,14 +247,14 @@ footer {
 
 .design-archives{
 	box-sizing: border-box;
+	-moz-box-sizing: border-box;
 	padding-left: 2.5rem;
 	padding-top: 2rem;
 	padding-right: 2.5rem;
 	padding-bottom: 2rem;
 	h3 {
 		margin-bottom: 1rem;
-		float: right;
-		width: 67%;
+		clear: both;
 	}
 	nav {
 		clear: both;
