@@ -1,0 +1,265 @@
+/***CSS for global***/
+
+/***universal***/
+.page-wrapper, {
+	width: 100%;
+	// margin-right: auto;
+	// margin-left: auto;
+	// max-width: 750px;
+}
+
+
+
+/***header***/
+h1 {
+	margin-bottom: 1.5rem;
+	margin-top: 1rem;
+	text-align: center;
+	text-shadow: 2px -2px 0px $yellow, 4px -4px 0px $blue, 6px -6px 0px $red, 8px -8px 0px $green;  
+	letter-spacing: 6px;
+	padding-left: 0.5rem;
+	padding-top: 0.5rem;
+	padding-right: 0.5rem;
+	padding-bottom: 0.5rem;
+}
+
+h2 {
+	margin-bottom: 1rem;
+	padding-left: 2.5rem;
+	padding-right: 2.5rem;
+}
+
+.summary {
+	margin-bottom: 2.5rem;
+	padding-left: 2.5rem;
+	padding-right: 2.5rem;
+}	
+
+
+
+/***main content***/
+.preamble::before, .participation::before, .requirements::before {
+	border-radius: 50%;
+	height: 75px;
+	width: 75px;
+	content: "";
+	display: block;
+	margin-bottom: 1rem;
+	float: right;
+}
+
+.preamble {
+	box-sizing: border-box;
+	padding-left: 2.5rem;
+	padding-top: 2rem;
+	padding-right: 2.5rem;
+	padding-bottom: 2rem;
+	h3 {
+		margin-bottom: 1rem;
+		margin-right: 0.5rem;
+		float: left;
+		width: 67%;
+	}
+	p {
+		clear: both;
+		margin-bottom: 0.5rem;
+	}
+}
+
+.participation {
+	box-sizing: border-box;
+	padding-left: 2.5rem;
+	padding-top: 2rem;
+	padding-right: 2.5rem;
+	padding-bottom: 2rem;
+	h3 {
+		margin-bottom: 1rem;
+		margin-right: 0.5rem;
+		float: left;
+		width: 67%;
+	}
+	p {
+		clear: both;
+		margin-bottom: 0.5rem;
+	}
+}
+
+.requirements {
+	box-sizing: border-box;
+	padding-left: 2.5rem;
+	padding-top: 2rem;
+	padding-right: 2.5rem;
+	padding-bottom: 2rem;
+	h3 {
+		margin-bottom: 1rem;
+		margin-right: 0.5rem;
+		float: left;
+		width: 67%;
+	}
+	p {
+		clear: both;
+		margin-bottom: 0.5rem;
+	}
+}
+
+.explanation::before, .benefits::before {
+	border-radius: 50%;
+	height: 75px;
+	width: 75px;
+	content: "";
+	display: block;
+	margin-bottom: 1rem;
+	float: left;
+}
+
+.explanation {
+	box-sizing: border-box;
+	padding-left: 2.5rem;
+	padding-top: 2rem;
+	padding-right: 2.5rem;
+	padding-bottom: 2rem;
+	h3 {
+		margin-bottom: 1rem;
+		margin-left: 0.5rem;
+		float: right;
+		width: 67%;
+	}
+	p {
+		margin-bottom: 0.5rem;
+		clear: both;
+	}
+}
+
+.benefits {
+	box-sizing: border-box;
+	padding-left: 2.5rem;
+	padding-top: 2rem;
+	padding-right: 2.5rem;
+	padding-bottom: 2rem;
+	h3 {
+		margin-bottom: 1rem;
+		margin-left: 0.5rem;
+		float: right;
+		width: 67%;
+	}
+	p {
+		margin-bottom: 0.5rem;
+		clear: both;
+	}
+}
+
+
+
+/***footer***/
+footer {
+	padding-left: 1rem;
+	padding-right: 1rem;
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+	margin-right: auto;
+	margin-left: auto;
+	width: 85%;
+	text-align: center;
+}
+
+.zen-validate-html, .zen-validate-css, .zen-license, .zen-accessibility, .zen-github {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-right: 2rem;
+  padding-left: 2rem;
+  color: white;
+  text-align: center;
+}
+
+.zen-validate-html:hover, .zen-validate-css:hover, .zen-license:hover, .zen-accessibility:hover, .zen-github:hover {
+	color: white;
+}
+
+.zen-validate-html {
+	background-image: url(../IMG/blue-bg.svg);
+	background-size: 80px 80px;
+	background-repeat: no-repeat;
+}
+
+.zen-validate-css {
+	background-image: url(../IMG/black-bg.svg);
+	background-size: 80px 80px;
+	background-repeat: no-repeat;
+}
+
+.zen-license {
+	background-image: url(../IMG/red-bg.svg);
+	background-size: 80px 80px;
+	background-repeat: no-repeat;
+}
+
+.zen-accessibility {
+	background-image: url(../IMG/yellow-bg.svg);
+	background-size: 80px 80px;
+	background-repeat: no-repeat;
+}
+
+.zen-github {
+	background-image: url(../IMG/green-bg.svg);
+	background-size: 80px 80px;
+	background-repeat: no-repeat;
+}
+
+
+
+/***sidebar***/
+.design-selection::before, .zen-resources::before {
+	border-radius: 50%;
+	height: 75px;
+	width: 75px;
+	content: "";
+	display: block;
+	float: right;
+	margin-bottom: 1rem;
+}
+
+.design-selection, .zen-resources {
+	box-sizing: border-box;
+	padding-left: 2.5rem;
+	padding-top: 2rem;
+	padding-right: 2.5rem;
+	padding-bottom: 2rem;
+	h3 {
+		margin-bottom: 1rem;
+		float: left;
+		width: 67%;
+		margin-right: 0.5rem;
+	}
+	nav, ul {
+		clear: both;
+		margin-bottom: 0.5rem;
+	}
+}
+
+.design-archives::before{
+	border-radius: 50%;
+	height: 75px;
+	width: 75px;
+	content: "";
+	display: block;
+	margin-bottom: 1rem;
+	float: left;
+	margin-right: 1rem;
+}
+
+.design-archives{
+	box-sizing: border-box;
+	padding-left: 2.5rem;
+	padding-top: 2rem;
+	padding-right: 2.5rem;
+	padding-bottom: 2rem;
+	h3 {
+		margin-bottom: 1rem;
+		float: right;
+		width: 67%;
+	}
+	nav {
+		clear: both;
+		margin-bottom: 0.5rem;
+	}
+}

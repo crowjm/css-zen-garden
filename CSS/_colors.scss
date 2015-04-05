@@ -1,0 +1,138 @@
+$black: rgb(0,0,0);
+$green: rgb(0,155,74);
+$blue: rgb(56,164,216);
+$yellow: rgb(240,213,72);
+$red: rgb(241,3,35);
+$black-super-transparent: rgba(0,0,0,0.2);
+$green-super-transparent: rgba(0,155,74,0.2);
+$blue-super-transparent: rgba(56,164,216,0.2);
+$yellow-super-transparent: rgba(240,213,72,0.2);
+$red-super-transparent: rgba(241,3,35,0.2);
+
+
+/***general***/
+a {
+	color: $blue;
+}
+
+a:hover {
+	color: darken($blue, 20%);
+}
+
+
+/***main content***/
+.summary {
+	p {
+		color: #333;
+	}
+}
+
+.preamble::before {
+	border: 5px solid $blue;
+}
+
+.preamble {
+	background-color: $blue-super-transparent;
+	h3 {
+		color: $blue;
+	}
+	p {
+		color: #333;
+	}
+}
+
+.explanation::before {
+	border: 5px solid $black;
+}
+
+.explanation {
+	background-color: $black-super-transparent;
+	p {
+		color: #333;
+	}
+}
+
+.participation::before {
+	border: 5px solid $red;
+}
+
+.participation {
+	background-color: $red-super-transparent;
+	h3 {
+		color: $red;
+	}
+	p {
+		color: #333;
+	}
+}
+
+.benefits::before {
+	border: 5px solid darken($yellow, 10%);
+}
+
+.benefits {
+	background-color: darken($yellow-super-transparent, 10%);
+	h3 {
+		color: darken($yellow, 10%);
+	}
+	p {
+		color: #333;
+	}
+}
+
+.requirements::before {
+	border: 5px solid $green;
+}
+
+.requirements {
+	background-color: $green-super-transparent;
+	h3 {
+		color: $green;
+	}
+	p {
+		color: #333;
+	}
+}
+
+/***sidebar***/
+.design-selection::before {
+	border: 5px solid $red;
+}
+
+.design-selection {
+	background-color: $red-super-transparent;
+	h3 {
+		color: $red;
+	}
+	p {
+		color: #333;
+	}
+}
+
+.design-archives::before {
+	border: 5px solid darken($yellow, 10%);
+}
+
+.design-archives {
+	background-color: darken($yellow-super-transparent, 10%);
+	h3 {
+		color: darken($yellow, 10%);
+	}
+	p {
+		color: #333;
+	}
+}
+
+.zen-resources::before {
+	border: 5px solid $green;
+}
+
+.zen-resources {
+	background-color: $green-super-transparent;
+	h3 {
+		color: $green;
+	}
+	p {
+		color: #333;
+	}
+}

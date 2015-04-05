@@ -1,0 +1,567 @@
+@media screen and (min-width: 700px) {
+/***header***/
+// header::before {
+//   color: $green;
+//   content: "CSS Zen Garden";
+//   font-size: 75px;
+//   font-weight: bold;
+// }
+
+// h1 {
+//   content: "CSS Zen Garden";
+//   color: $blue;
+//   font-size: 75px;
+// }
+
+//   h1::before {
+//   color: $red;
+//   content: "CSS Zen Garden";
+//   font-size: 75px;
+// }
+
+//   h1::after {
+//   content: "CSS Zen Garden";
+//   color: $yellow;
+//   font-size: 75px;
+// }
+
+// h2::before {
+//   content: "CSS Zen Garden";
+//   font-size: 75px;
+//   position: absolute;
+//   top: 20px;
+//   left: 20px;
+// }
+
+h2 {
+   text-align: center; 
+}
+
+.summary {
+  max-width: 650px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 3em;
+}
+
+
+
+/***main content***/
+  @include keyframes(scale) {
+0%, 100% {
+  @include transform(scale(1));
+}
+50% {
+  @include transform(scale(1.25));
+}
+
+}
+
+.explanation::before, .benefits::before, .preamble::before, .participation::before, .requirements::before {
+	display: none;
+}
+
+.preamble {
+  h3 {
+    float: none;
+    width: 100%;
+    text-align: center;
+  }
+  p:nth-of-type(1) {
+	  width: 330px;
+	  height: 330px;
+	  border-radius: 50%;
+	  box-sizing: border-box;
+	  border: 25px solid $blue;
+	  padding: 3.15rem;
+	  float: left;
+	  margin-top: 4rem;
+  }
+ p:nth-of-type(1)::after {
+    content: "";
+    background-color: $blue-super-transparent;
+    width: 330px;
+    height: 330px;
+    border-radius: 50%;
+    display: block; 
+    margin-top: -279px;
+    margin-left: -76px;
+    @include animation(scale 2.5s linear infinite); 
+  }
+  p:nth-of-type(2) {
+	  width: 330px;
+	  height: 330px;
+	  border-radius: 50%;
+	  box-sizing: border-box;
+	  border: 25px solid $blue;
+	  padding: 2.6rem;
+	  display: inline-block;
+	  float: right;
+  }
+ p:nth-of-type(2)::after {
+    content: "";
+    background-color: $blue-super-transparent;
+    width: 330px;
+    height: 330px;
+    border-radius: 50%;
+    display: block; 
+    margin-top: -268px;
+    margin-left: -64px;
+    @include animation(scale 2.5s linear infinite); 
+  }
+  p:nth-of-type(3) {
+	  width: 370px;
+	  height: 370px;
+	  border-radius: 50%;
+	  box-sizing: border-box;
+	  border: 25px solid $blue;
+	  padding: 3em;
+	  float: left;
+	  margin-bottom: 4rem;
+  }
+ p:nth-of-type(3)::after {
+    content: "";
+    background-color: $blue-super-transparent;
+    width: 370px;
+    height: 370px;
+    border-radius: 50%;
+    display: block; 
+    margin-top: -304px;
+    margin-left: -72px;
+    @include animation(scale 2.5s linear infinite); 
+  }
+}
+
+.explanation {
+	clear: both;
+   h3 {
+    float: none;
+    width: 100%;
+    text-align: center;
+  }
+p:nth-of-type(1) {
+	  width: 450px;
+	  height: 450px;
+	  border-radius: 50%;
+	  box-sizing: border-box;
+	  border: 25px solid $black;
+	  padding: 4rem;
+	  float: right;
+	  margin-top: 4rem;
+  }
+ p:nth-of-type(1)::after {
+    content: "";
+    background-color: $black-super-transparent;
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
+    display: block; 
+    margin-top: -379px;
+    margin-left: -89px;
+    @include animation(scale 2.5s linear infinite); 
+  }
+  p:nth-of-type(2) {
+	  width: 455px;
+	  height: 455px;
+	  border-radius: 50%;
+	  box-sizing: border-box;
+	  border: 25px solid $black;
+	  padding: 3.75rem;
+	  float: left;
+	  margin-bottom: 4rem;
+  }
+ p:nth-of-type(2)::after {
+    content: "";
+    background-color: $black-super-transparent;
+    width: 455px;
+    height: 455px;
+    border-radius: 50%;
+    display: block; 
+    margin-top: -375px;
+    margin-left: -85px;
+    @include animation(scale 2.5s linear infinite); 
+  }
+}
+
+.participation {
+	clear: both;
+  h3 {
+    float: none;
+    width: 100%;
+    text-align: center;
+  }
+p:nth-of-type(1) {
+    width: 440px;
+    height: 440px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    border: 25px solid $red;
+    padding: 3.6rem;
+    float: right;
+    margin-top: 4rem;
+  }
+ p:nth-of-type(1)::after {
+    content: "";
+    background-color: $red-super-transparent;
+    width: 440px;
+    height: 440px;
+    border-radius: 50%;
+    display: block; 
+    margin-top: -343px;
+    margin-left: -82px;
+    @include animation(scale 2.5s linear infinite); 
+  }
+  p:nth-of-type(2) {
+    width: 370px;
+    height: 370px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    border: 25px solid $red;
+    padding: 3.2rem;
+    float: left;
+  }
+ p:nth-of-type(2)::after {
+    content: "";
+    background-color: $red-super-transparent;
+    width: 370px;
+    height: 370px;
+    border-radius: 50%;
+    display: block; 
+    margin-top: -308px;
+    margin-left: -74px;
+    @include animation(scale 2.5s linear infinite); 
+  }
+  p:nth-of-type(3) {
+    width: 460px;
+    height: 460px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    border: 25px solid $red;
+    padding: 3.8rem;
+    float: right;
+    margin-bottom: 4rem;
+  }
+ p:nth-of-type(3)::after {
+    content: "";
+    background-color: $red-super-transparent;
+    width: 460px;
+    height: 460px;
+    border-radius: 50%;
+    display: block; 
+    margin-top: -375px;
+    margin-left: -84px;
+    @include animation(scale 2.5s linear infinite); 
+  }
+}
+
+.benefits {
+  clear: both;
+  h3 {
+    float: none;
+    width: 100%;
+    text-align: center;
+  }
+  p {
+    width: 440px;
+    height: 440px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    border: 25px solid darken($yellow, 10%);
+    padding: 3.8rem;
+    float: left;
+    margin-bottom: 4rem;
+    margin-top: 4rem;
+  }
+   p::after {
+    content: "";
+    background-color: darken($yellow-super-transparent, 10%);
+    width: 440px;
+    height: 440px;
+    border-radius: 50%;
+    display: block; 
+    margin-top: -347px;
+    margin-left: -85px;
+    @include animation(scale 2.5s linear infinite); 
+  }
+}
+
+.requirements {
+  clear: both;
+   h3 {
+    float: none;
+    width: 100%;
+    text-align: center;
+  }
+  p:nth-of-type(1) {
+    width: 455px;
+    height: 455px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    border: 25px solid $green;
+    padding: 4rem;
+    float: right;
+    margin-top: 4rem;
+  }
+   p:nth-of-type(1)::after {
+    content: "";
+    background-color: $green-super-transparent;
+    width: 455px;
+    height: 455px;
+    border-radius: 50%;
+    display: block; 
+    margin-top: -379px;
+    margin-left: -89px;
+    @include animation(scale 2.5s linear infinite); 
+  }
+  p:nth-of-type(2) {
+    width: 555px;
+    height: 555px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    border: 25px solid $green;
+    padding: 4.75rem;
+    float: left;
+  }
+   p:nth-of-type(2)::after {
+    content: "";
+    background-color: $green-super-transparent;
+    width: 555px;
+    height: 555px;
+    border-radius: 50%;
+    display: block; 
+    margin-top: -447px;
+    margin-left: -100px;
+    @include animation(scale 2.5s linear infinite); 
+  }
+  p:nth-of-type(3) {
+    width: 420px;
+    height: 420px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    border: 25px solid $green;
+    padding: 4rem;
+    float: right;
+  }
+   p:nth-of-type(3)::after {
+    content: "";
+    background-color: $green-super-transparent;
+    width: 420px;
+    height: 420px;
+    border-radius: 50%;
+    display: block; 
+    margin-top: -350px;
+    margin-left: -88px;
+    @include animation(scale 2.5s linear infinite); 
+  }
+  p:nth-of-type(4) {
+    width: 430px;
+    height: 430px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    border: 25px solid $green;
+    padding: 4rem;
+    float: left;
+  }
+   p:nth-of-type(4)::after {
+    content: "";
+    background-color: $green-super-transparent;
+    width: 430px;
+    height: 430px;
+    border-radius: 50%;
+    display: block; 
+    margin-top: -350px;
+    margin-left: -88px;
+    @include animation(scale 2.5s linear infinite); 
+  }
+  p:nth-of-type(5) {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    border: 25px solid $green;
+    padding: 2.5rem;
+    float: right;
+    margin-bottom: 4rem;
+  }
+   p:nth-of-type(5)::after {
+    content: "";
+    background-color: $green-super-transparent;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    display: block; 
+    margin-top: -237px;
+    margin-left: -64px;
+    @include animation(scale 2.5s linear infinite); 
+  }
+}
+
+
+/***footer***/
+footer {
+  clear: both;
+}
+
+
+/***sidebar***/
+.design-archives::before, .design-selection::before, .zen-resources::before {
+  display: none;
+}
+
+.design-selection {
+   h3 {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 1rem;
+    margin-left: 0.5rem;
+    float: none;
+  }
+  nav {
+    width: 430px;
+    height: 430px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    border: 25px solid $red;
+    padding: 3.5rem;
+    float: left;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+  }
+nav::after {
+    content: "";
+    background-color: $red-super-transparent;
+    width: 430px;
+    height: 430px;
+    border-radius: 50%;
+    display: block; 
+    margin-top: -350px;
+    margin-left: -80px;
+    @include animation(scale 2.5s linear infinite); 
+  }
+}
+
+.design-archives {
+  clear: both;
+   h3 {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 1rem;
+    margin-left: 0.5rem;
+    float: none;
+  }
+  nav {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    border: 25px solid darken($yellow, 10%);
+    padding: 2.3rem;
+    float: right;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+  }
+nav::after {
+    content: "";
+    background-color: darken($yellow-super-transparent, 10%);
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    display: block; 
+    margin-top: -120px;
+    margin-left: -62px;
+    @include animation(scale 2.5s linear infinite); 
+  }
+}
+
+.zen-resources {
+  clear: both;
+  h3 {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 1rem;
+    margin-left: 0.5rem;
+    float: none;
+  }
+  ul {
+    width: 295px;
+    height: 295px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    border: 25px solid $green;
+    padding: 2.5rem;
+    float: left;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+  }
+ul::after {
+    content: "";
+    background-color: $green-super-transparent;
+    width: 295px;
+    height: 295px;
+    border-radius: 50%;
+    display: block; 
+    margin-top: -238px;
+    margin-left: -63px;
+    @include animation(scale 2.5s linear infinite); 
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .preamble {
+    p:nth-of-type(1), p:nth-of-type(2), p:nth-of-type(3) {
+      margin-right: 5em;
+      margin-left: 5em;
+    }
+  }
+
+  .explanation {
+     p:nth-of-type(1),  p:nth-of-type(2) {
+        margin-right: 5em;
+        margin-left: 5em;
+     }
+  }
+
+  .participation {
+     p:nth-of-type(1),  p:nth-of-type(2),  p:nth-of-type(3) {
+        margin-right: 5em;
+        margin-left: 5em;
+     }
+  }
+
+  .benefits {
+    p {
+        margin-right: 5em;
+        margin-left: 5em;
+    }
+  }
+
+  .requirements {
+     p:nth-of-type(1),  p:nth-of-type(2),  p:nth-of-type(3),  p:nth-of-type(4),  p:nth-of-type(5) {
+        margin-right: 5em;
+        margin-left: 5em;
+     }
+  }
+
+  .design-selection {
+    nav {
+      margin-left: 5em;
+      margin-right: 5em;
+    }
+  }
+
+  .design-archives {
+    nav {
+      margin-left: 5em;
+      margin-right: 5em;
+    }
+  }
+
+  .zen-resources {
+    ul {
+      margin-right: 5em;
+      margin-left: 5em;
+    }
+  }
+
+}
+    }
