@@ -15,9 +15,9 @@ h1 {
 	text-align: center;
 	text-shadow: 2px -2px 0px $yellow, 4px -4px 0px $blue, 6px -6px 0px $red, 8px -8px 0px $green;  
 	letter-spacing: 6px;
-	padding-left: 0.5rem;
+	padding-left: 1rem;
 	padding-top: 0.5rem;
-	padding-right: 0.5rem;
+	padding-right: 1rem;
 	padding-bottom: 0.5rem;
 }
 
@@ -58,6 +58,7 @@ h2 {
 		margin-right: 0.5rem;
 		clear: both;
 		text-align: right;
+		width: 95%;
 	}
 	p {
 		// clear: both;
@@ -96,6 +97,7 @@ h2 {
 		margin-right: 0.5rem;
 		clear: both;
 		text-align: right;
+		width: 95%;
 	}
 	p {
 		// clear: both;
