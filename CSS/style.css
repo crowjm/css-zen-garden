@@ -310,13 +310,9 @@ footer {
     color: black; }
 
 .zen-validate-html, .zen-validate-css, .zen-license, .zen-accessibility, .zen-github {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-  padding-right: 2rem;
-  padding-left: 2rem;
+  padding: 2rem 2rem 2rem 7rem;
   text-align: center;
   display: block;
-  width: 50%;
   margin-bottom: 0.5rem; }
 
 .zen-validate-html {
@@ -789,11 +785,17 @@ footer {
   /***footer***/
   footer {
     clear: both;
-    overflow: hidden; }
-    footer a {
-      width: 33.333%;
-      float: left;
-      display: block; }
+    overflow: hidden;
+    max-width: 540px;
+    margin-right: auto;
+    margin-left: auto; }
+
+  .zen-validate-html, .zen-validate-css, .zen-license, .zen-accessibility, .zen-github {
+    box-sizing: border-box;
+    display: inline-block; }
+
+  .zen-accessibility {
+    margin-left: 17%; }
 
   /***sidebar***/
   .design-archives::before, .design-selection::before, .zen-resources::before {
