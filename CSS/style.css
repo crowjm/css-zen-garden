@@ -219,7 +219,8 @@ h2 {
   padding-left: 2.5rem;
   padding-top: 2rem;
   padding-right: 2.5rem;
-  padding-bottom: 2rem; }
+  padding-bottom: 2rem;
+  overflow: hidden; }
   .preamble h3 {
     margin-bottom: 1rem;
     margin-right: 0.5rem;
@@ -234,7 +235,8 @@ h2 {
   padding-left: 2.5rem;
   padding-top: 2rem;
   padding-right: 2.5rem;
-  padding-bottom: 2rem; }
+  padding-bottom: 2rem;
+  overflow: hidden; }
   .participation h3 {
     margin-bottom: 1rem;
     margin-right: 0.5rem;
@@ -249,7 +251,8 @@ h2 {
   padding-left: 2.5rem;
   padding-top: 2rem;
   padding-right: 2.5rem;
-  padding-bottom: 2rem; }
+  padding-bottom: 2rem;
+  overflow: hidden; }
   .requirements h3 {
     margin-bottom: 1rem;
     margin-right: 0.5rem;
@@ -273,7 +276,8 @@ h2 {
   padding-left: 2.5rem;
   padding-top: 2rem;
   padding-right: 2.5rem;
-  padding-bottom: 2rem; }
+  padding-bottom: 2rem;
+  overflow: hidden; }
   .explanation h3 {
     margin-bottom: 1rem;
     margin-left: 0.5rem;
@@ -287,7 +291,8 @@ h2 {
   padding-left: 2.5rem;
   padding-top: 2rem;
   padding-right: 2.5rem;
-  padding-bottom: 2rem; }
+  padding-bottom: 2rem;
+  overflow: hidden; }
   .benefits h3 {
     margin-bottom: 1rem;
     margin-left: 0.5rem;
@@ -355,7 +360,8 @@ footer {
   padding-left: 2.5rem;
   padding-top: 2rem;
   padding-right: 2.5rem;
-  padding-bottom: 2rem; }
+  padding-bottom: 2rem;
+  overflow: hidden; }
   .design-selection h3, .zen-resources h3 {
     margin-bottom: 1rem;
     clear: both;
@@ -380,7 +386,8 @@ footer {
   padding-left: 2.5rem;
   padding-top: 2rem;
   padding-right: 2.5rem;
-  padding-bottom: 2rem; }
+  padding-bottom: 2rem;
+  overflow: hidden; }
   .design-archives h3 {
     margin-bottom: 1rem;
     clear: both; }
@@ -440,13 +447,13 @@ footer {
     height: 340px;
     border-radius: 50%;
     box-sizing: border-box;
-    border: 25px solid #38a4d8;
+    border: 25px solid #a3d5ed;
     padding: 3.15rem;
     float: left;
     margin-top: 4rem; }
   .preamble p:nth-of-type(1)::after {
     content: "";
-    background-color: rgba(56, 164, 216, 0.2);
+    background-color: #63b7e0;
     width: 340px;
     height: 340px;
     border-radius: 50%;
@@ -461,13 +468,13 @@ footer {
     height: 340px;
     border-radius: 50%;
     box-sizing: border-box;
-    border: 25px solid #38a4d8;
+    border: 25px solid #a3d5ed;
     padding: 3rem;
     display: inline-block;
     float: right; }
   .preamble p:nth-of-type(2)::after {
     content: "";
-    background-color: rgba(56, 164, 216, 0.2);
+    background-color: #63b7e0;
     width: 340px;
     height: 340px;
     border-radius: 50%;
@@ -482,13 +489,13 @@ footer {
     height: 380px;
     border-radius: 50%;
     box-sizing: border-box;
-    border: 25px solid #38a4d8;
+    border: 25px solid #a3d5ed;
     padding: 3.25em;
     float: left;
     margin-bottom: 4rem; }
   .preamble p:nth-of-type(3)::after {
     content: "";
-    background-color: rgba(56, 164, 216, 0.2);
+    background-color: #63b7e0;
     width: 380px;
     height: 380px;
     border-radius: 50%;
@@ -504,19 +511,20 @@ footer {
     .explanation h3 {
       float: none;
       width: 100%;
-      text-align: center; }
+      text-align: center;
+      font-size: 3rem; }
     .explanation p:nth-of-type(1) {
       width: 460px;
       height: 460px;
       border-radius: 50%;
       box-sizing: border-box;
-      border: 25px solid black;
+      border: 25px solid #404040;
       padding: 4.25rem;
       float: right;
       margin-top: 4rem; }
     .explanation p:nth-of-type(1)::after {
       content: "";
-      background-color: rgba(0, 0, 0, 0.2);
+      background-color: #1a1a1a;
       width: 460px;
       height: 460px;
       border-radius: 50%;
@@ -531,13 +539,13 @@ footer {
       height: 465px;
       border-radius: 50%;
       box-sizing: border-box;
-      border: 25px solid black;
+      border: 25px solid #404040;
       padding: 4rem;
       float: left;
       margin-bottom: 4.05rem; }
     .explanation p:nth-of-type(2)::after {
       content: "";
-      background-color: rgba(0, 0, 0, 0.2);
+      background-color: #1a1a1a;
       width: 465px;
       height: 465px;
       border-radius: 50%;
@@ -553,19 +561,20 @@ footer {
     .participation h3 {
       float: none;
       width: 100%;
-      text-align: center; }
+      text-align: center;
+      font-size: 3rem; }
     .participation p:nth-of-type(1) {
       width: 450px;
       height: 450px;
       border-radius: 50%;
       box-sizing: border-box;
-      border: 25px solid #b10118;
+      border: 25px solid #fe344e;
       padding: 3.96rem;
       float: right;
       margin-top: 4rem; }
     .participation p:nth-of-type(1)::after {
       content: "";
-      background-color: rgba(177, 1, 24, 0.2);
+      background-color: #e4011f;
       width: 450px;
       height: 450px;
       border-radius: 50%;
@@ -580,12 +589,12 @@ footer {
       height: 380px;
       border-radius: 50%;
       box-sizing: border-box;
-      border: 25px solid #b10118;
+      border: 25px solid #fe344e;
       padding: 3.2rem;
       float: left; }
     .participation p:nth-of-type(2)::after {
       content: "";
-      background-color: rgba(177, 1, 24, 0.2);
+      background-color: #e4011f;
       width: 380px;
       height: 380px;
       border-radius: 50%;
@@ -600,13 +609,13 @@ footer {
       height: 470px;
       border-radius: 50%;
       box-sizing: border-box;
-      border: 25px solid #b10118;
+      border: 25px solid #fe344e;
       padding: 4.2rem;
       float: right;
       margin-bottom: 4rem; }
     .participation p:nth-of-type(3)::after {
       content: "";
-      background-color: rgba(177, 1, 24, 0.2);
+      background-color: #e4011f;
       width: 470px;
       height: 470px;
       border-radius: 50%;
@@ -622,20 +631,21 @@ footer {
     .benefits h3 {
       float: none;
       width: 100%;
-      text-align: center; }
+      text-align: center;
+      font-size: 3rem; }
     .benefits p {
       width: 450px;
       height: 450px;
       border-radius: 50%;
       box-sizing: border-box;
-      border: 25px solid #a18804;
+      border: 25px solid #fbe25c;
       padding: 4.12rem;
       float: left;
       margin-bottom: 4rem;
       margin-top: 4rem; }
     .benefits p::after {
       content: "";
-      background-color: rgba(161, 136, 4, 0.2);
+      background-color: #f9d412;
       width: 440px;
       height: 440px;
       border-radius: 50%;
@@ -651,19 +661,20 @@ footer {
     .requirements h3 {
       float: none;
       width: 100%;
-      text-align: center; }
+      text-align: center;
+      font-size: 3rem; }
     .requirements p:nth-of-type(1) {
       width: 465px;
       height: 465px;
       border-radius: 50%;
       box-sizing: border-box;
-      border: 25px solid #009b4a;
+      border: 25px solid #1cff88;
       padding: 4.15rem;
       float: right;
       margin-top: 4rem; }
     .requirements p:nth-of-type(1)::after {
       content: "";
-      background-color: rgba(0, 155, 74, 0.2);
+      background-color: #00ce62;
       width: 465px;
       height: 465px;
       border-radius: 50%;
@@ -678,12 +689,12 @@ footer {
       height: 565px;
       border-radius: 50%;
       box-sizing: border-box;
-      border: 25px solid #009b4a;
+      border: 25px solid #1cff88;
       padding: 5.05rem;
       float: left; }
     .requirements p:nth-of-type(2)::after {
       content: "";
-      background-color: rgba(0, 155, 74, 0.2);
+      background-color: #9bffcb;
       width: 565px;
       height: 565px;
       border-radius: 50%;
@@ -698,12 +709,12 @@ footer {
       height: 420px;
       border-radius: 50%;
       box-sizing: border-box;
-      border: 25px solid #009b4a;
+      border: 25px solid #1cff88;
       padding: 4rem;
       float: right; }
     .requirements p:nth-of-type(3)::after {
       content: "";
-      background-color: rgba(0, 155, 74, 0.2);
+      background-color: #9bffcb;
       width: 420px;
       height: 420px;
       border-radius: 50%;
@@ -718,12 +729,12 @@ footer {
       height: 430px;
       border-radius: 50%;
       box-sizing: border-box;
-      border: 25px solid #009b4a;
+      border: 25px solid #1cff88;
       padding: 4rem;
       float: left; }
     .requirements p:nth-of-type(4)::after {
       content: "";
-      background-color: rgba(0, 155, 74, 0.2);
+      background-color: #9bffcb;
       width: 430px;
       height: 430px;
       border-radius: 50%;
@@ -738,13 +749,13 @@ footer {
       height: 310px;
       border-radius: 50%;
       box-sizing: border-box;
-      border: 25px solid #009b4a;
+      border: 25px solid #1cff88;
       padding: 2.75rem;
       float: right;
       margin-bottom: 4rem; }
     .requirements p:nth-of-type(5)::after {
       content: "";
-      background-color: rgba(0, 155, 74, 0.2);
+      background-color: #9bffcb;
       width: 310px;
       height: 310px;
       border-radius: 50%;
@@ -768,20 +779,21 @@ footer {
     text-align: center;
     margin-bottom: 1rem;
     margin-left: 0.5rem;
-    float: none; }
+    float: none;
+    font-size: 3rem; }
   .design-selection nav {
     width: 440px;
     height: 440px;
     border-radius: 50%;
     box-sizing: border-box;
-    border: 25px solid #b10118;
+    border: 25px solid #fe344e;
     padding: 3.83rem;
     float: left;
     margin-top: 4rem;
     margin-bottom: 4rem; }
   .design-selection nav::after {
     content: "";
-    background-color: rgba(177, 1, 24, 0.2);
+    background-color: #ffb2bc;
     width: 440px;
     height: 440px;
     border-radius: 50%;
@@ -799,20 +811,22 @@ footer {
       text-align: center;
       margin-bottom: 1rem;
       margin-left: 0.5rem;
-      float: none; }
+      float: none;
+      font-size: 3rem; }
     .design-archives nav {
       width: 250px;
       height: 250px;
       border-radius: 50%;
       box-sizing: border-box;
-      border: 25px solid #a18804;
+      -moz-box-sizing: border-box;
+      border: 25px solid #fbe25c;
       padding: 2.3rem;
       float: right;
       margin-top: 4rem;
       margin-bottom: 4rem; }
     .design-archives nav::after {
       content: "";
-      background-color: rgba(161, 136, 4, 0.2);
+      background-color: #fef8d9;
       width: 250px;
       height: 250px;
       border-radius: 50%;
@@ -830,20 +844,22 @@ footer {
       text-align: center;
       margin-bottom: 1rem;
       margin-left: 0.5rem;
-      float: none; }
+      float: none;
+      font-size: 3rem; }
     .zen-resources ul {
       width: 305px;
       height: 305px;
       border-radius: 50%;
       box-sizing: border-box;
-      border: 25px solid #009b4a;
+      -moz-box-sizing: border-box;
+      border: 25px solid #1cff88;
       padding: 2.7rem;
       float: left;
       margin-top: 4rem;
       margin-bottom: 4rem; }
     .zen-resources ul::after {
       content: "";
-      background-color: rgba(0, 155, 74, 0.2);
+      background-color: #9bffcb;
       width: 305px;
       height: 305px;
       border-radius: 50%;
