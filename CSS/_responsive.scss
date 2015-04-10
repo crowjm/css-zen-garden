@@ -34,6 +34,7 @@ h2 {
 }
 
 .preamble {
+  overflow: hidden;
   h3 {
     float: none;
     width: 100%;
@@ -49,10 +50,11 @@ h2 {
 	  padding: 3.15rem;
 	  float: left;
 	  margin-top: 4rem;
+    clear: right;
   }
  p:nth-of-type(1)::after {
     content: "";
-    background-color: lighten($blue, 10%);
+    background-color: rgba(255,255,255,.1);
     width: 340px;
     height: 340px;
     border-radius: 50%;
@@ -70,10 +72,11 @@ h2 {
 	  padding: 3rem;
 	  display: inline-block;
 	  float: right;
+    clear: left;
   }
  p:nth-of-type(2)::after {
     content: "";
-    background-color: lighten($blue, 10%);
+    background-color: rgba(255,255,255,.1);
     width: 340px;
     height: 340px;
     border-radius: 50%;
@@ -91,10 +94,11 @@ h2 {
 	  padding: 3.25em;
 	  float: left;
 	  margin-bottom: 4rem;
+    clear: right;
   }
  p:nth-of-type(3)::after {
     content: "";
-    background-color: lighten($blue, 10%);
+    background-color: rgba(255,255,255,.1);
     width: 380px;
     height: 380px;
     border-radius: 50%;
@@ -107,6 +111,7 @@ h2 {
 
 .explanation {
 	clear: both;
+  overflow: hidden;
    h3 {
     float: none;
     width: 100%;
@@ -121,11 +126,12 @@ p:nth-of-type(1) {
 	  border: 25px solid lighten($black, 25%);
 	  padding: 4.25rem;
 	  float: right;
+    clear: left;
 	  margin-top: 4rem;
   }
  p:nth-of-type(1)::after {
     content: "";
-    background-color: lighten($black, 10%);
+    background-color: rgba(255,255,255,.1);
     width: 460px;
     height: 460px;
     border-radius: 50%;
@@ -142,11 +148,12 @@ p:nth-of-type(1) {
 	  border: 25px solid lighten($black, 25%);
 	  padding: 4rem;
 	  float: left;
+    clear: right;
 	  margin-bottom: 4.05rem;
   }
  p:nth-of-type(2)::after {
     content: "";
-    background-color: lighten($black, 10%);
+    background-color: rgba(255,255,255,.1);
     width: 465px;
     height: 465px;
     border-radius: 50%;
@@ -159,6 +166,7 @@ p:nth-of-type(1) {
 
 .participation {
 	clear: both;
+  overflow: hidden;
   h3 {
     float: none;
     width: 100%;
@@ -173,11 +181,12 @@ p:nth-of-type(1) {
     border: 25px solid lighten($red, 25%);
     padding: 3.96rem;
     float: right;
+    clear: left;
     margin-top: 4rem;
   }
  p:nth-of-type(1)::after {
     content: "";
-    background-color: lighten($red, 10%);
+    background-color: rgba(255,255,255,.1);
     width: 450px;
     height: 450px;
     border-radius: 50%;
@@ -194,10 +203,11 @@ p:nth-of-type(1) {
     border: 25px solid lighten($red, 25%);
     padding: 3.2rem;
     float: left;
+    clear: right;
   }
  p:nth-of-type(2)::after {
     content: "";
-    background-color: lighten($red, 10%);
+    background-color: rgba(255,255,255,.1);
     width: 380px;
     height: 380px;
     border-radius: 50%;
@@ -214,11 +224,12 @@ p:nth-of-type(1) {
     border: 25px solid lighten($red, 25%);
     padding: 4.2rem;
     float: right;
+    clear: left;
     margin-bottom: 4rem;
   }
  p:nth-of-type(3)::after {
     content: "";
-    background-color: lighten($red, 10%);
+    background-color: rgba(255,255,255,.1);
     width: 470px;
     height: 470px;
     border-radius: 50%;
@@ -231,6 +242,7 @@ p:nth-of-type(1) {
 
 .benefits {
   clear: both;
+  overflow: hidden;
   h3 {
     float: none;
     width: 100%;
@@ -245,12 +257,13 @@ p:nth-of-type(1) {
     border: 25px solid lighten($yellow, 25%);
     padding: 4.12rem;
     float: left;
+    clear: right;
     margin-bottom: 4rem;
     margin-top: 4rem;
   }
    p::after {
     content: "";
-    background-color: lighten($yellow, 10%);
+    background-color: rgba(255,255,255,.1);
     width: 440px;
     height: 440px;
     border-radius: 50%;
@@ -263,6 +276,7 @@ p:nth-of-type(1) {
 
 .requirements {
   clear: both;
+  overflow: hidden;
    h3 {
     float: none;
     width: 100%;
@@ -277,11 +291,12 @@ p:nth-of-type(1) {
     border: 25px solid lighten($green, 25%);
     padding: 4.15rem;
     float: right;
+    clear: left;
     margin-top: 4rem;
   }
    p:nth-of-type(1)::after {
     content: "";
-    background-color: lighten($green, 10%);
+    background-color: rgba(255,255,255,.1);
     width: 465px;
     height: 465px;
     border-radius: 50%;
@@ -298,10 +313,11 @@ p:nth-of-type(1) {
     border: 25px solid lighten($green, 25%);
     padding: 5.05rem;
     float: left;
+    clear: right;
   }
    p:nth-of-type(2)::after {
     content: "";
-    background-color: lighten($green, 50%);
+    background-color: rgba(255,255,255,.1);
     width: 565px;
     height: 565px;
     border-radius: 50%;
@@ -318,10 +334,11 @@ p:nth-of-type(1) {
     border: 25px solid lighten($green, 25%);
     padding: 4rem;
     float: right;
+    clear: left;
   }
    p:nth-of-type(3)::after {
     content: "";
-    background-color: lighten($green, 50%);
+    background-color: rgba(255,255,255,.1);
     width: 420px;
     height: 420px;
     border-radius: 50%;
@@ -338,10 +355,11 @@ p:nth-of-type(1) {
     border: 25px solid lighten($green, 25%);
     padding: 4rem;
     float: left;
+    clear: right;
   }
    p:nth-of-type(4)::after {
     content: "";
-    background-color: lighten($green, 50%);
+    background-color: rgba(255,255,255,.1);
     width: 430px;
     height: 430px;
     border-radius: 50%;
@@ -358,11 +376,12 @@ p:nth-of-type(1) {
     border: 25px solid lighten($green, 25%);
     padding: 2.75rem;
     float: right;
+    clear: left;
     margin-bottom: 4rem;
   }
    p:nth-of-type(5)::after {
     content: "";
-    background-color: lighten($green, 50%);
+   background-color: rgba(255,255,255,.1);
     width: 310px;
     height: 310px;
     border-radius: 50%;
@@ -377,6 +396,12 @@ p:nth-of-type(1) {
 /***footer***/
 footer {
   clear: both;
+  overflow: hidden;
+  a {
+    width: 33.333%;
+    float: left;
+    display: block;
+  }
 }
 
 
@@ -386,6 +411,7 @@ footer {
 }
 
 .design-selection {
+  overflow: hidden;
    h3 {
     width: 100%;
     text-align: center;
@@ -402,12 +428,13 @@ footer {
     border: 25px solid lighten($red, 25%);
     padding: 3.83rem;
     float: left;
+    clear: right;
     margin-top: 4rem;
     margin-bottom: 4rem;
   }
 nav::after {
     content: "";
-    background-color: lighten($red, 50%);
+    background-color: rgba(255,255,255,.1);
     width: 440px;
     height: 440px;
     border-radius: 50%;
@@ -419,6 +446,7 @@ nav::after {
 }
 
 .design-archives {
+  overflow: hidden;
   clear: both;
    h3 {
     width: 100%;
@@ -437,12 +465,13 @@ nav::after {
     border: 25px solid lighten($yellow, 25%);
     padding: 2.3rem;
     float: right;
+    clear: left;
     margin-top: 4rem;
     margin-bottom: 4rem;
   }
 nav::after {
     content: "";
-    background-color: lighten($yellow, 50%);
+    background-color: rgba(255,255,255,.1);
     width: 250px;
     height: 250px;
     border-radius: 50%;
@@ -455,6 +484,7 @@ nav::after {
 
 .zen-resources {
   clear: both;
+  overflow: hidden;
   h3 {
     width: 100%;
     text-align: center;
@@ -472,12 +502,13 @@ nav::after {
     border: 25px solid lighten($green, 25%);
     padding: 2.7rem;
     float: left;
+    clear: right;
     margin-top: 4rem;
     margin-bottom: 4rem;
   }
 ul::after {
     content: "";
-    background-color: lighten($green, 50%);
+    background-color: rgba(255,255,255,.1);
     width: 305px;
     height: 305px;
     border-radius: 50%;

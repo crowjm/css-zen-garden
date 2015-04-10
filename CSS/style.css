@@ -437,77 +437,83 @@ footer {
   .explanation::before, .benefits::before, .preamble::before, .participation::before, .requirements::before {
     display: none; }
 
-  .preamble h3 {
-    float: none;
-    width: 100%;
-    text-align: center;
-    font-size: 3rem; }
-  .preamble p:nth-of-type(1) {
-    width: 340px;
-    height: 340px;
-    border-radius: 50%;
-    box-sizing: border-box;
-    border: 25px solid #a3d5ed;
-    padding: 3.15rem;
-    float: left;
-    margin-top: 4rem; }
-  .preamble p:nth-of-type(1)::after {
-    content: "";
-    background-color: #63b7e0;
-    width: 340px;
-    height: 340px;
-    border-radius: 50%;
-    display: block;
-    margin-top: -242px;
-    margin-left: -74px;
-    -webkit-animation: scale 2.5s linear infinite;
-    -moz-animation: scale 2.5s linear infinite;
-    animation: scale 2.5s linear infinite; }
-  .preamble p:nth-of-type(2) {
-    width: 340px;
-    height: 340px;
-    border-radius: 50%;
-    box-sizing: border-box;
-    border: 25px solid #a3d5ed;
-    padding: 3rem;
-    display: inline-block;
-    float: right; }
-  .preamble p:nth-of-type(2)::after {
-    content: "";
-    background-color: #63b7e0;
-    width: 340px;
-    height: 340px;
-    border-radius: 50%;
-    display: block;
-    margin-top: -268px;
-    margin-left: -72px;
-    -webkit-animation: scale 2.5s linear infinite;
-    -moz-animation: scale 2.5s linear infinite;
-    animation: scale 2.5s linear infinite; }
-  .preamble p:nth-of-type(3) {
-    width: 380px;
-    height: 380px;
-    border-radius: 50%;
-    box-sizing: border-box;
-    border: 25px solid #a3d5ed;
-    padding: 3.25em;
-    float: left;
-    margin-bottom: 4rem; }
-  .preamble p:nth-of-type(3)::after {
-    content: "";
-    background-color: #63b7e0;
-    width: 380px;
-    height: 380px;
-    border-radius: 50%;
-    display: block;
-    margin-top: -301px;
-    margin-left: -76px;
-    -webkit-animation: scale 2.5s linear infinite;
-    -moz-animation: scale 2.5s linear infinite;
-    animation: scale 2.5s linear infinite; }
+  .preamble {
+    overflow: hidden; }
+    .preamble h3 {
+      float: none;
+      width: 100%;
+      text-align: center;
+      font-size: 3rem; }
+    .preamble p:nth-of-type(1) {
+      width: 340px;
+      height: 340px;
+      border-radius: 50%;
+      box-sizing: border-box;
+      border: 25px solid #a3d5ed;
+      padding: 3.15rem;
+      float: left;
+      margin-top: 4rem;
+      clear: right; }
+    .preamble p:nth-of-type(1)::after {
+      content: "";
+      background-color: rgba(255, 255, 255, 0.1);
+      width: 340px;
+      height: 340px;
+      border-radius: 50%;
+      display: block;
+      margin-top: -242px;
+      margin-left: -74px;
+      -webkit-animation: scale 2.5s linear infinite;
+      -moz-animation: scale 2.5s linear infinite;
+      animation: scale 2.5s linear infinite; }
+    .preamble p:nth-of-type(2) {
+      width: 340px;
+      height: 340px;
+      border-radius: 50%;
+      box-sizing: border-box;
+      border: 25px solid #a3d5ed;
+      padding: 3rem;
+      display: inline-block;
+      float: right;
+      clear: left; }
+    .preamble p:nth-of-type(2)::after {
+      content: "";
+      background-color: rgba(255, 255, 255, 0.1);
+      width: 340px;
+      height: 340px;
+      border-radius: 50%;
+      display: block;
+      margin-top: -268px;
+      margin-left: -72px;
+      -webkit-animation: scale 2.5s linear infinite;
+      -moz-animation: scale 2.5s linear infinite;
+      animation: scale 2.5s linear infinite; }
+    .preamble p:nth-of-type(3) {
+      width: 380px;
+      height: 380px;
+      border-radius: 50%;
+      box-sizing: border-box;
+      border: 25px solid #a3d5ed;
+      padding: 3.25em;
+      float: left;
+      margin-bottom: 4rem;
+      clear: right; }
+    .preamble p:nth-of-type(3)::after {
+      content: "";
+      background-color: rgba(255, 255, 255, 0.1);
+      width: 380px;
+      height: 380px;
+      border-radius: 50%;
+      display: block;
+      margin-top: -301px;
+      margin-left: -76px;
+      -webkit-animation: scale 2.5s linear infinite;
+      -moz-animation: scale 2.5s linear infinite;
+      animation: scale 2.5s linear infinite; }
 
   .explanation {
-    clear: both; }
+    clear: both;
+    overflow: hidden; }
     .explanation h3 {
       float: none;
       width: 100%;
@@ -521,10 +527,11 @@ footer {
       border: 25px solid #404040;
       padding: 4.25rem;
       float: right;
+      clear: left;
       margin-top: 4rem; }
     .explanation p:nth-of-type(1)::after {
       content: "";
-      background-color: #1a1a1a;
+      background-color: rgba(255, 255, 255, 0.1);
       width: 460px;
       height: 460px;
       border-radius: 50%;
@@ -542,10 +549,11 @@ footer {
       border: 25px solid #404040;
       padding: 4rem;
       float: left;
+      clear: right;
       margin-bottom: 4.05rem; }
     .explanation p:nth-of-type(2)::after {
       content: "";
-      background-color: #1a1a1a;
+      background-color: rgba(255, 255, 255, 0.1);
       width: 465px;
       height: 465px;
       border-radius: 50%;
@@ -557,7 +565,8 @@ footer {
       animation: scale 2.5s linear infinite; }
 
   .participation {
-    clear: both; }
+    clear: both;
+    overflow: hidden; }
     .participation h3 {
       float: none;
       width: 100%;
@@ -571,10 +580,11 @@ footer {
       border: 25px solid #fe344e;
       padding: 3.96rem;
       float: right;
+      clear: left;
       margin-top: 4rem; }
     .participation p:nth-of-type(1)::after {
       content: "";
-      background-color: #e4011f;
+      background-color: rgba(255, 255, 255, 0.1);
       width: 450px;
       height: 450px;
       border-radius: 50%;
@@ -591,10 +601,11 @@ footer {
       box-sizing: border-box;
       border: 25px solid #fe344e;
       padding: 3.2rem;
-      float: left; }
+      float: left;
+      clear: right; }
     .participation p:nth-of-type(2)::after {
       content: "";
-      background-color: #e4011f;
+      background-color: rgba(255, 255, 255, 0.1);
       width: 380px;
       height: 380px;
       border-radius: 50%;
@@ -612,10 +623,11 @@ footer {
       border: 25px solid #fe344e;
       padding: 4.2rem;
       float: right;
+      clear: left;
       margin-bottom: 4rem; }
     .participation p:nth-of-type(3)::after {
       content: "";
-      background-color: #e4011f;
+      background-color: rgba(255, 255, 255, 0.1);
       width: 470px;
       height: 470px;
       border-radius: 50%;
@@ -627,7 +639,8 @@ footer {
       animation: scale 2.5s linear infinite; }
 
   .benefits {
-    clear: both; }
+    clear: both;
+    overflow: hidden; }
     .benefits h3 {
       float: none;
       width: 100%;
@@ -641,11 +654,12 @@ footer {
       border: 25px solid #fbe25c;
       padding: 4.12rem;
       float: left;
+      clear: right;
       margin-bottom: 4rem;
       margin-top: 4rem; }
     .benefits p::after {
       content: "";
-      background-color: #f9d412;
+      background-color: rgba(255, 255, 255, 0.1);
       width: 440px;
       height: 440px;
       border-radius: 50%;
@@ -657,7 +671,8 @@ footer {
       animation: scale 2.5s linear infinite; }
 
   .requirements {
-    clear: both; }
+    clear: both;
+    overflow: hidden; }
     .requirements h3 {
       float: none;
       width: 100%;
@@ -671,10 +686,11 @@ footer {
       border: 25px solid #1cff88;
       padding: 4.15rem;
       float: right;
+      clear: left;
       margin-top: 4rem; }
     .requirements p:nth-of-type(1)::after {
       content: "";
-      background-color: #00ce62;
+      background-color: rgba(255, 255, 255, 0.1);
       width: 465px;
       height: 465px;
       border-radius: 50%;
@@ -691,10 +707,11 @@ footer {
       box-sizing: border-box;
       border: 25px solid #1cff88;
       padding: 5.05rem;
-      float: left; }
+      float: left;
+      clear: right; }
     .requirements p:nth-of-type(2)::after {
       content: "";
-      background-color: #9bffcb;
+      background-color: rgba(255, 255, 255, 0.1);
       width: 565px;
       height: 565px;
       border-radius: 50%;
@@ -711,10 +728,11 @@ footer {
       box-sizing: border-box;
       border: 25px solid #1cff88;
       padding: 4rem;
-      float: right; }
+      float: right;
+      clear: left; }
     .requirements p:nth-of-type(3)::after {
       content: "";
-      background-color: #9bffcb;
+      background-color: rgba(255, 255, 255, 0.1);
       width: 420px;
       height: 420px;
       border-radius: 50%;
@@ -731,10 +749,11 @@ footer {
       box-sizing: border-box;
       border: 25px solid #1cff88;
       padding: 4rem;
-      float: left; }
+      float: left;
+      clear: right; }
     .requirements p:nth-of-type(4)::after {
       content: "";
-      background-color: #9bffcb;
+      background-color: rgba(255, 255, 255, 0.1);
       width: 430px;
       height: 430px;
       border-radius: 50%;
@@ -752,10 +771,11 @@ footer {
       border: 25px solid #1cff88;
       padding: 2.75rem;
       float: right;
+      clear: left;
       margin-bottom: 4rem; }
     .requirements p:nth-of-type(5)::after {
       content: "";
-      background-color: #9bffcb;
+      background-color: rgba(255, 255, 255, 0.1);
       width: 310px;
       height: 310px;
       border-radius: 50%;
@@ -768,43 +788,52 @@ footer {
 
   /***footer***/
   footer {
-    clear: both; }
+    clear: both;
+    overflow: hidden; }
+    footer a {
+      width: 33.333%;
+      float: left;
+      display: block; }
 
   /***sidebar***/
   .design-archives::before, .design-selection::before, .zen-resources::before {
     display: none; }
 
-  .design-selection h3 {
-    width: 100%;
-    text-align: center;
-    margin-bottom: 1rem;
-    margin-left: 0.5rem;
-    float: none;
-    font-size: 3rem; }
-  .design-selection nav {
-    width: 440px;
-    height: 440px;
-    border-radius: 50%;
-    box-sizing: border-box;
-    border: 25px solid #fe344e;
-    padding: 3.83rem;
-    float: left;
-    margin-top: 4rem;
-    margin-bottom: 4rem; }
-  .design-selection nav::after {
-    content: "";
-    background-color: #ffb2bc;
-    width: 440px;
-    height: 440px;
-    border-radius: 50%;
-    display: block;
-    margin-top: -346px;
-    margin-left: -85px;
-    -webkit-animation: scale 2.5s linear infinite;
-    -moz-animation: scale 2.5s linear infinite;
-    animation: scale 2.5s linear infinite; }
+  .design-selection {
+    overflow: hidden; }
+    .design-selection h3 {
+      width: 100%;
+      text-align: center;
+      margin-bottom: 1rem;
+      margin-left: 0.5rem;
+      float: none;
+      font-size: 3rem; }
+    .design-selection nav {
+      width: 440px;
+      height: 440px;
+      border-radius: 50%;
+      box-sizing: border-box;
+      border: 25px solid #fe344e;
+      padding: 3.83rem;
+      float: left;
+      clear: right;
+      margin-top: 4rem;
+      margin-bottom: 4rem; }
+    .design-selection nav::after {
+      content: "";
+      background-color: rgba(255, 255, 255, 0.1);
+      width: 440px;
+      height: 440px;
+      border-radius: 50%;
+      display: block;
+      margin-top: -346px;
+      margin-left: -85px;
+      -webkit-animation: scale 2.5s linear infinite;
+      -moz-animation: scale 2.5s linear infinite;
+      animation: scale 2.5s linear infinite; }
 
   .design-archives {
+    overflow: hidden;
     clear: both; }
     .design-archives h3 {
       width: 100%;
@@ -822,11 +851,12 @@ footer {
       border: 25px solid #fbe25c;
       padding: 2.3rem;
       float: right;
+      clear: left;
       margin-top: 4rem;
       margin-bottom: 4rem; }
     .design-archives nav::after {
       content: "";
-      background-color: #fef8d9;
+      background-color: rgba(255, 255, 255, 0.1);
       width: 250px;
       height: 250px;
       border-radius: 50%;
@@ -838,7 +868,8 @@ footer {
       animation: scale 2.5s linear infinite; }
 
   .zen-resources {
-    clear: both; }
+    clear: both;
+    overflow: hidden; }
     .zen-resources h3 {
       width: 100%;
       text-align: center;
@@ -855,11 +886,12 @@ footer {
       border: 25px solid #1cff88;
       padding: 2.7rem;
       float: left;
+      clear: right;
       margin-top: 4rem;
       margin-bottom: 4rem; }
     .zen-resources ul::after {
       content: "";
-      background-color: #9bffcb;
+      background-color: rgba(255, 255, 255, 0.1);
       width: 305px;
       height: 305px;
       border-radius: 50%;
