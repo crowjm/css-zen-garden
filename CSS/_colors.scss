@@ -27,7 +27,6 @@ a, a:hover {
 }
 
 .preamble {
-	background-color: $blue;
 	h3 {
 		color: white;
 	}
@@ -41,7 +40,6 @@ a, a:hover {
 }
 
 .explanation {
-	background-color: $black;
 	h3 {
 		color: white;
 	}
@@ -55,7 +53,6 @@ a, a:hover {
 }
 
 .participation {
-	background-color: $red;
 	h3 {
 		color: white;
 	}
@@ -69,12 +66,11 @@ a, a:hover {
 }
 
 .benefits {
-	background-color: $yellow;
 	h3 {
-		color: white;
+		color: black;
 	}
 	p {
-		color: white;
+		color: black;
 	}
 }
 
@@ -83,7 +79,6 @@ a, a:hover {
 }
 
 .requirements {
-	background-color: $green;
 	h3 {
 		color: white;
 	}
@@ -98,7 +93,6 @@ a, a:hover {
 }
 
 .design-selection {
-	background-color: $red;
 	h3 {
 		color: white;
 	}
@@ -115,26 +109,24 @@ a, a:hover {
 }
 
 .design-archives::before {
-	border: 5px solid lighten($yellow, 25%);
+	border: 5px solid lighten($yellow, 5%);
 }
 
 .design-archives {
-	background-color: $yellow;
-	color: white;
+	color: black;
 	h3 {
-		color: white;
+		color: black;
 	}
-	p {
-		color: white;
+	a {
+		color: black;
 	}
 }
 
 .zen-resources::before {
-	border: 5px solid lighten($green,25%);
+	border: 5px solid lighten($green, 25%);
 }
 
 .zen-resources {
-	background-color: $green;
 	h3 {
 		color: white;
 	}

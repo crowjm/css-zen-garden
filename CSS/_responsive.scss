@@ -51,10 +51,11 @@ h2 {
 	  float: left;
 	  margin-top: 4rem;
     clear: right;
+    z-index: 999;
   }
  p:nth-of-type(1)::after {
     content: "";
-    background-color: rgba(255,255,255,.1);
+    background-color: rgba(255,255,255,.25);
     width: 340px;
     height: 340px;
     border-radius: 50%;
@@ -76,7 +77,7 @@ h2 {
   }
  p:nth-of-type(2)::after {
     content: "";
-    background-color: rgba(255,255,255,.1);
+    background-color: rgba(255,255,255,.25);
     width: 340px;
     height: 340px;
     border-radius: 50%;
@@ -98,7 +99,7 @@ h2 {
   }
  p:nth-of-type(3)::after {
     content: "";
-    background-color: rgba(255,255,255,.1);
+    background-color: rgba(255,255,255,.25);
     width: 380px;
     height: 380px;
     border-radius: 50%;
@@ -131,7 +132,7 @@ p:nth-of-type(1) {
   }
  p:nth-of-type(1)::after {
     content: "";
-    background-color: rgba(255,255,255,.1);
+    background-color: rgba(255,255,255,.25);
     width: 460px;
     height: 460px;
     border-radius: 50%;
@@ -153,7 +154,7 @@ p:nth-of-type(1) {
   }
  p:nth-of-type(2)::after {
     content: "";
-    background-color: rgba(255,255,255,.1);
+    background-color: rgba(255,255,255,.25);
     width: 465px;
     height: 465px;
     border-radius: 50%;
@@ -186,7 +187,7 @@ p:nth-of-type(1) {
   }
  p:nth-of-type(1)::after {
     content: "";
-    background-color: rgba(255,255,255,.1);
+    background-color: rgba(255,255,255,.25);
     width: 450px;
     height: 450px;
     border-radius: 50%;
@@ -207,7 +208,7 @@ p:nth-of-type(1) {
   }
  p:nth-of-type(2)::after {
     content: "";
-    background-color: rgba(255,255,255,.1);
+    background-color: rgba(255,255,255,.25);
     width: 380px;
     height: 380px;
     border-radius: 50%;
@@ -229,7 +230,7 @@ p:nth-of-type(1) {
   }
  p:nth-of-type(3)::after {
     content: "";
-    background-color: rgba(255,255,255,.1);
+    background-color: rgba(255,255,255,.25);
     width: 470px;
     height: 470px;
     border-radius: 50%;
@@ -254,7 +255,7 @@ p:nth-of-type(1) {
     height: 450px;
     border-radius: 50%;
     box-sizing: border-box;
-    border: 25px solid lighten($yellow, 25%);
+    border: 25px solid lighten($yellow, 5%);
     padding: 4.12rem;
     float: left;
     clear: right;
@@ -263,7 +264,7 @@ p:nth-of-type(1) {
   }
    p::after {
     content: "";
-    background-color: rgba(255,255,255,.1);
+    background-color: rgba(255,255,255,.25);
     width: 440px;
     height: 440px;
     border-radius: 50%;
@@ -296,7 +297,7 @@ p:nth-of-type(1) {
   }
    p:nth-of-type(1)::after {
     content: "";
-    background-color: rgba(255,255,255,.1);
+    background-color: rgba(255,255,255,.25);
     width: 465px;
     height: 465px;
     border-radius: 50%;
@@ -317,7 +318,7 @@ p:nth-of-type(1) {
   }
    p:nth-of-type(2)::after {
     content: "";
-    background-color: rgba(255,255,255,.1);
+    background-color: rgba(255,255,255,.25);
     width: 565px;
     height: 565px;
     border-radius: 50%;
@@ -338,7 +339,7 @@ p:nth-of-type(1) {
   }
    p:nth-of-type(3)::after {
     content: "";
-    background-color: rgba(255,255,255,.1);
+    background-color: rgba(255,255,255,.25);
     width: 420px;
     height: 420px;
     border-radius: 50%;
@@ -359,7 +360,7 @@ p:nth-of-type(1) {
   }
    p:nth-of-type(4)::after {
     content: "";
-    background-color: rgba(255,255,255,.1);
+    background-color: rgba(255,255,255,.25);
     width: 430px;
     height: 430px;
     border-radius: 50%;
@@ -381,7 +382,7 @@ p:nth-of-type(1) {
   }
    p:nth-of-type(5)::after {
     content: "";
-   background-color: rgba(255,255,255,.1);
+   background-color: rgba(255,255,255,.25);
     width: 310px;
     height: 310px;
     border-radius: 50%;
@@ -441,7 +442,7 @@ footer {
   }
 nav::after {
     content: "";
-    background-color: rgba(255,255,255,.1);
+    background-color: rgba(255,255,255,.25);
     width: 440px;
     height: 440px;
     border-radius: 50%;
@@ -478,7 +479,7 @@ nav::after {
   }
 nav::after {
     content: "";
-    background-color: rgba(255,255,255,.1);
+    background-color: rgba(255,255,255,.25);
     width: 250px;
     height: 250px;
     border-radius: 50%;
@@ -515,7 +516,7 @@ nav::after {
   }
 ul::after {
     content: "";
-    background-color: rgba(255,255,255,.1);
+    background-color: rgba(255,255,255,.25);
     width: 305px;
     height: 305px;
     border-radius: 50%;
