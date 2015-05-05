@@ -416,6 +416,7 @@ footer {
 .zen-validate-html, .zen-validate-css, .zen-license, .zen-accessibility, .zen-github {
   box-sizing: border-box;
   display: inline-block;
+  float: left;
 }
 
 .zen-accessibility {
@@ -484,7 +485,7 @@ nav::after {
     border-radius: 50%;
     box-sizing: border-box;
     -moz-box-sizing: border-box;
-    border: 25px solid lighten($yellow, 25%);
+    border: 25px solid $yellow;
     padding: 2.3rem;
     float: right;
     clear: left;

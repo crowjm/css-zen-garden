@@ -109,7 +109,7 @@ a, a:hover {
 }
 
 .design-archives::before {
-	border: 5px solid lighten($yellow, 5%);
+	border: 5px solid ($yellow, 5%);
 }
 
 .design-archives {
